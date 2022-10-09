@@ -1,0 +1,126 @@
+.footer {
+    background-color: var(--additional-background-color-2);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-logo {
+
+    margin-bottom: 20px;
+    margin-right: 156px;
+}
+
+
+.address-item {
+
+    color: var(--additional-text-color-3);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-item:hover,
+.address-item:focus {
+    color: var(--accent-color);
+    outline: none;
+}
+
+.footer-addres {
+    margin-bottom: 9px;
+}
+
+.footer-messenger,
+.list-icon {
+    display: flex;
+    align-items: baseline;
+}
+
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:focus,
+.footer-link:hover {
+    background-color: var(--accent-color);
+    outline: none;
+}
+
+.footer-icon {
+    fill: #FFFFFF;
+}
+
+.white {
+    color: var(--additional-text-color-2);
+}
+
+
+.footer-text {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.footer-text,
+.text-form {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--additional-text-color-2);
+    text-transform: uppercase;
+}
+
+.footer-mail {
+    box-sizing: border-box;
+    margin-left: 93px;
+}
+
+.text-form {
+    margin-bottom: 20px;
+}
+
+.form-mail {
+    display: flex;
+
+}
+
+
+.form-mail input {
+    padding-left: 16px;
+    margin-right: 12px;
+    box-sizing: border-box;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--additional-text-color-2);
+    background: var(--additional-background-color-2);
+    outline: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-mail input:focus {
+    border-color: var(--accent-color);
+    color: var(--additional-text-color-2);
+}
+
+
+.form-mail placeholder {
+
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+}

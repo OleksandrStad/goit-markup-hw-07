@@ -1,0 +1,39 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.section-list {
+
+    display: flex;
+}
+
+.advantage {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-list-item {
+    margin-right: 30px;
+}
+
+.section-heading {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+
+.section-text {
+    color: var(--additional-text-color-1);
+    font-size: 14px;
+    line-height: 1.71;
+}

@@ -1,15 +1,15 @@
-.section {
+.advantage {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 
-.section-list {
+.advantage__list {
 
     display: flex;
 }
 
-.advantage {
+.advantage__svg {
     display: flex;
     width: 270px;
     height: 120px;
@@ -19,11 +19,11 @@
     justify-content: center;
 }
 
-.section-list-item {
+.advantage__item {
     margin-right: 30px;
 }
 
-.section-heading {
+.advantage__skills {
     margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -32,7 +32,7 @@
 
 }
 
-.section-text {
+.advantage__description {
     color: var(--additional-text-color-1);
     font-size: 14px;
     line-height: 1.71;

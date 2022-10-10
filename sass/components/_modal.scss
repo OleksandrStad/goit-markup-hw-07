@@ -40,11 +40,13 @@
     cursor: pointer;
     fill: #000000;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        fill: var(--accent-color);
+    }
 }
 
-.close-button:hover {
-    fill: var(--accent-color);
-}
+
 
 
 .close-btn {
@@ -90,32 +92,35 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
+
+    &:focus {
+        border: 1px solid var(--accent-color);
+    }
+
+    &:focus+svg {
+        fill: var(--accent-color);
+
+    }
 }
 
-.form-element input:focus {
-    border: 1px solid var(--accent-color);
-}
-
-.form-element input:focus+svg {
-    fill: var(--accent-color);
-
-}
 
 
 .form-element textarea {
     padding: 12px 16px;
     box-sizing: border-box;
     height: 120px;
-    // margin-bottom: 20px;
+
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
+
+    &:focus {
+        border: 1px solid var(--accent-color);
+    }
 }
 
-.form-element textarea:focus {
-    border: 1px solid var(--accent-color);
-}
+
 
 .input-wrap {
     position: relative;
@@ -144,6 +149,12 @@ textarea {
     color: var(--additional-text-color-1);
     margin-bottom: 30px;
     margin-left: 13px;
+
+    & input:checked+label .checkbox {
+        background-color: var(--accent-color);
+        border: none;
+
+    }
 
 }
 
@@ -175,11 +186,7 @@ textarea {
 }
 
 
-.modal-accept input:checked+label .checkbox {
-    background-color: var(--accent-color);
-    border: none;
 
-}
 
 .mobal-treaty {
     display: inline-block;

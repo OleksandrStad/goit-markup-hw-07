@@ -25,11 +25,13 @@
 .products__item {
     display: block;
     margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0px;
+    }
 }
 
-.products__item:last-child {
-    margin-right: 0px;
-}
+
 
 .products__img {
     position: relative;
